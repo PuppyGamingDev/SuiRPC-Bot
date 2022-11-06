@@ -36,7 +36,11 @@ I wrote this in about 15 minutes while bored... There may be some errors on call
 ## Current Commands
 These may not all be functional as the Documentation differs and I hadn't tested them all properly yet.
 ```
+/getCoinBalancesOwnedByAddress
+/getEventsByObject
+/getEventsByRecipient
 /getEventsBySender
+/getEventsByTransaction
 /getGasObjectsOwnedByAddress
 /getObject
 /getObjectRef
@@ -44,7 +48,11 @@ These may not all be functional as the Documentation differs and I hadn't tested
 /getObjectsOwnedByObject
 /getRawObject
 /getRecentTransactions
+/getRpcApiVersion
 /getTotalTransactionNumber
 /getTransactionData
+/getTransactionsForAddress
+/getTransactionsForObject
+/getTranasactionWithEffects
 /requestSuiFromFaucet
 ```
