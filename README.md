@@ -1,6 +1,10 @@
 # Sui RPC Discord Bot
 This is pretty much just a fun project to incorporate Sui's JS SDK calls into a Discord Bot
 
+If you would rather just invite my Bot to your server you are more than welcome.
+
+https://discord.com/api/oauth2/authorize?client_id=1038921088941424710&permissions=51200&scope=bot%20applications.commands
+
 ## Requirements
 Node.js v16+ and a machine to run on
 
