@@ -42,4 +42,5 @@ These may not all be functional as the Documentation differs and I hadn't tested
 /getRecentTransactions
 /getTotalTransactionNumber
 /getTransactionData
+/requestSuiFromFaucet
 ```
