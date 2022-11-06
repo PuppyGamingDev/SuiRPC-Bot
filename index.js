@@ -4,7 +4,9 @@ const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
 const fs = require('node:fs');
 const path = require('node:path');
 
-const provider = new JsonRpcProvider(Network.DEVNET);
+const provider = new JsonRpcProvider(Network.DEVNET, {
+	faucetURL: 'https://faucet.devnet.sui.io',
+});
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });

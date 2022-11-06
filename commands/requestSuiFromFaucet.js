@@ -2,21 +2,19 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("getrecenttransactions")
+        .setName("requestsuifromfaucet")
         .setDescription("Call to RPC")
-        .addIntegerOption((option) =>
+        .addStringOption((option) =>
             option
-                .setName("amount")
-                .setDescription(
-                    "The amount to get (message capped at 2000 characters)"
-                )
+                .setName("address")
+                .setDescription("The Address")
                 .setRequired(true)
         ),
     async execute(interaction, provider) {
-        const amount = interaction.options.getInteger("amount");
+        const address = interaction.options.getString("address");
 
         try {
-            const result = await provider.getRecentTransactions(amount);
+            const result = await provider.requestSuiFromFaucet(address);
             interaction.reply({
                 content:
                     "RPC Response:\n```" +
