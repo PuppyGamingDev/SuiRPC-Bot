@@ -28,3 +28,18 @@ Then simply run `node index.js` to start the bot!
 
 ## Extra Notes
 I wrote this in about 15 minutes while bored... There may be some errors on calls and such but I will continiue to add to it and fix. Also the responses will be better formatted.
+
+## Current Commands
+These may not all be functional as the Documentation differs and I hadn't tested them all properly yet.
+```
+/getEventsBySender
+/getGasObjectsOwnedByAddress
+/getObject
+/getObjectRef
+/getObjectsOwnedByAddress
+/getObjectsOwnedByObject
+/getRawObject
+/getRecentTransactions
+/getTotalTransactionNumber
+/getTransactionData
+```
