@@ -1,4 +1,6 @@
 # Sui RPC Discord Bot
+THIS WAS FUNCTIONAL FOR DEVNET 0.14.1  !!!  CURRENTLY AWAITING 0.15.0 SDK UPDATE
+
 This is pretty much just a fun project to incorporate Sui's JS SDK calls into a Discord Bot
 
 If you would rather just invite my Bot to your server you are more than welcome.
